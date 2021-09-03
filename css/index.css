@@ -324,9 +324,9 @@ footer nav a {
 }
 
 .bubbles{
-    width: 48%;
+    width: 46%;
     justify-content: flex-start;
-    margin: 0 1%;
+    margin: 0 2%;
     margin-bottom: 25px;
     border-bottom: 1px dashed black;
 }
