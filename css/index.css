@@ -279,7 +279,7 @@ nav a{
 
 footer {
     width: 100%;
-    background: black;
+    background:black;
 }
 
 footer nav {
@@ -335,19 +335,18 @@ footer nav a {
     padding-bottom: 3%;
 }
 
-.bubbles .learnmore{
+.bubbles button{
     border: 3px solid black;
     margin: 3% 0;
-    padding: 1%;
-    border-radius: 10%;
-    width: 30%;
+    padding: 2%;
+    border-radius: 2vh;
+    width: 35%;
+    background-color: white;
 }
 
 .bubbles a{
     text-decoration: none;
     color: black;
-    border-radius: 10%;
-    width: 100%;
 }
 
 /*ABOUT BOTTOM CONTENT*/
