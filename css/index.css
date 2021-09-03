@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+/*UNIVERSAL CSS*/
+
 * {
     box-sizing: border-box;
 }
@@ -65,6 +68,12 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/*HEADER CSS HERE*/
+/*HEADER CSS HERE*/
+/*HEADER CSS HERE*/
+/*HEADER CSS HERE*/
+
 
 .container {
     width: 800px;
@@ -85,6 +94,9 @@ p {
     padding-bottom: 20px;  
 }
 
+/*INSERT BOX COLORS BELOW HERE*/
+/*INSERT BOX COLORS BELOW HERE*/
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,16 +113,127 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*I changed .box in html to .boxNumber but removing .box from css transforms the boxes entirely, so I'm not sure why...but I'm leaving it here since it works lol*/
+}
+
+.box1{
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: teal;
 }
+
+.box2{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+
+.box3{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.box4{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+
+
+/*INSERT BOX COLORS ABOVE HERE*/
+/*INSERT BOX COLORS ABOVE HERE*/
+
 
 .bottom-content {
     display: flex;
