@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+/*UNIVERSAL CSS*/
+
 * {
     box-sizing: border-box;
 }
@@ -66,6 +69,41 @@ p {
     line-height: 1.4;
 }
 
+/*HEADER CSS BELOW HERE*/
+/*HEADER CSS BELOW HERE*/
+/*HEADER CSS BELOW HERE*/
+/*HEADER CSS BELOW HERE*/
+
+header{
+    width: 800px;
+    margin: 3vh auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vh;
+    margin-right: 8vh;
+}
+
+nav .logo{
+    display: flex;
+    align-items: top;
+    margin-bottom: 3vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*HEADER CSS ABOVE HERE*/
+/*HEADER CSS ABOVE HERE*/
+/*HEADER CSS ABOVE HERE*/
+/*HEADER CSS ABOVE HERE*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,8 +120,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
+
+/*INSERT BOX COLORS BELOW HERE*/
+/*INSERT BOX COLORS BELOW HERE*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +142,126 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*I changed .box in html to .boxNumber but removing .box from css transforms the box shape entirely, and I'm not sure why...but I'm leaving it here since it works lol*/
+}
+
+.box1{
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: teal;
 }
+
+.box2{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+
+.box3{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+.box4{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+
+/*INSERT BOX COLORS ABOVE HERE*/
+/*INSERT BOX COLORS ABOVE HERE*/
+
 
 .bottom-content {
     display: flex;
@@ -128,7 +279,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background:black;
 }
 
 footer nav {
@@ -143,4 +294,70 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*ABOUT PAGE CSS HERE*/
+
+.top-about {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-words{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+/*ABOUT MIDDLE CONTENT*/
+/*ABOUT MIDDLE CONTENT*/
+/*ABOUT MIDDLE CONTENT*/
+/*ABOUT MIDDLE CONTENT*/
+
+.middle-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 8%;
+    padding: 0 1%;
+}
+
+.bubbles{
+    width: 46%;
+    justify-content: flex-start;
+    margin: 0 2%;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+.bubbles img{
+    padding-bottom: 3%;
+}
+
+.bubbles button{
+    border: 3px solid black;
+    margin: 3% 0;
+    padding: 2%;
+    border-radius: 2vh;
+    width: 35%;
+    background-color: white;
+}
+
+.bubbles a{
+    text-decoration: none;
+    color: black;
+}
+
+/*ABOUT BOTTOM CONTENT*/
+
+.bottom-about {
+    display:flex;
+    flex-direction: column;
+    padding: 0 9.5%;
+    margin-bottom: 20px;
+}
+
+.bottom-words{
+    padding: 0 1%;
 }
