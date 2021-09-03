@@ -295,3 +295,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*ABOUT PAGE CSS HERE*/
+
+.top-about {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-words{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+/*ABOUT MIDDLE CONTENT*/
+/*ABOUT MIDDLE CONTENT*/
+/*ABOUT MIDDLE CONTENT*/
+/*ABOUT MIDDLE CONTENT*/
+
+.middle-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 8%;
+    padding: 0 1%;
+}
+
+.bubbles{
+    width: 48%;
+    justify-content: flex-start;
+    margin: 0 1%;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+.bubbles img{
+    padding-bottom: 3%;
+}
+
+.bubbles .learnmore{
+    border: 3px solid black;
+    margin: 3% 0;
+    padding: 1%;
+    border-radius: 10%;
+    width: 30%;
+}
+
+.bubbles a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    width: 100%;
+}
+
+/*ABOUT BOTTOM CONTENT*/
+
+.bottom-about {
+    display:flex;
+    flex-direction: column;
+    padding: 0 9.5%;
+    margin-bottom: 20px;
+}
+
+.bottom-words{
+    padding: 0 1%;
+}
